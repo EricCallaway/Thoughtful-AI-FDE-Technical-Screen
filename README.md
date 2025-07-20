@@ -8,7 +8,7 @@ Hello! This is my submission for the Forward Deployed Engineer Position. In this
 
 ## Steps to Test
 1. `git clone https://github.com/EricCallaway/Thoughtful-AI-FDE-Technical-Screen.git`
-2. `cd thoughtful-ai`
+2. `cd Thoughtful-AI-FDE-Technical-Screen`
 3. `python3 main.py`
 4. Observe results.
 5. To run the unit test suite, simply run `pytest` while in the root directory of the project.
