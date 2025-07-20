@@ -12,6 +12,7 @@ Hello! This is my submission for the Forward Deployed Engineer Position. In this
 3. `python3 main.py`
 4. Observe results.
 5. To run the unit test suite, simply run `pytest` while in the root directory of the project.
+6. You are able to load different csv files to test for different outcomes of the program. Simply follow the same format of the given input.csv file.
 
 ## Architectural Decisioning
 
