@@ -68,12 +68,10 @@ For example, the `_is_bulky` function returns true or false based on whether the
 - Volume = 1,000,000.00 (Should return True)
 - Volume = 1,000,000.01 (Should return True)
 
-Similarly, I’d test edge values around the mass threshold of 100 for the `heavy` property.
+Similarly, I’d test edge values around the mass threshold of 20 for the `heavy` property.
 
 In addition, I would write system-level tests simulating realistic use cases (user story tests), such as creating a package, sorting it, and verifying it ends up in the correct stack. This broader integration testing is out of scope for the submission and would take additional time beyond what’s suggested.
 
 ## Thank You :)
 
 Thank you for taking the time to review my submission. Thoughtful AI seems like an incredible company, and I hope to hear from you all soon!
-
-Let me know if you’d like help polishing further or if you want this prepared as a PDF export!
