@@ -11,7 +11,7 @@ class Package:
     def _set_measurement_validation(self, name, value):
         if not isinstance(value, float) and not isinstance(value, int):
             raise ValueError(f"{name} must be either a floating point or integer primitive data type. Not {type(value)}")
-        if round(value, 2) < 0.00:
+        if round(value, 2) <= 0.00:
             raise ValueError(f"{name} cannot be a negative value. Value received {value}")
         return value
 
